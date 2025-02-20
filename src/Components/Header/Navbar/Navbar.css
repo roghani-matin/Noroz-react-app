@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Yekan Bakh FaNum";
+  src: url("/src/Fonts/woff-oeyda-web/PeydaWeb-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Yekan Bakh FaNum Regular";
+  src: url("/src/Fonts/woff-yekan-bakh/YekanBakhFaNum-Regular.woff")
+    format("woff");
+}
+nav {
+  background: #fff;
+  padding-top: 10px;
+  font-family: "Yekan Bakh FaNum Regular";
+}
+.navbarMainContainer {
+  margin: 0 175px;
+}
+.navbarList li {
+  display: inline;
+  margin-left: 12px;
+  font-size: 13px;
+}
+.navbarList li:hover {
+  border-bottom: 1px solid #212121;
+  padding-bottom: 3px;
+}
+.navbarList li a {
+  text-decoration: none;
+  color: #212121;
+  transition: ease-in-out.15s;
+  display: inline-block;
+  padding: 10px 0;
+}
+.hamburIconParent {
+  display: none;
+}
+.outIconParent{
+  font-size: 16px;
+  background-color: #f15252;
+  border-radius: 100%;
+  padding: 10px;
+  display: flex;
+  width: fit-content;
+  color: #fff;
+  margin: 0 auto 0 0;
+  display: flex;
+}
+.outIconParentNotShow{
+  display: none;
+}
+@media (max-width: 768px) {
+  .navbarMainContainer {
+    margin: 0 50px;
+  }
+  .navbarList{
+    display: none;
+  }
+  .navbarListShow{
+    height: 100%;
+    width: 60%;
+    position: fixed;
+    z-index: 100002;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.3s;
+    display: block;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+    color: #212121;
+    margin-top: 0;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+  .navbarList li {
+    font-size: 16px;
+  }
+  .hamburIconParent {
+    font-size: 24px;
+    background-color: #f15252;
+    border-radius: 100%;
+    padding: 10px;
+    display: flex;
+    width: fit-content;
+    color: #fff;
+  }
+}

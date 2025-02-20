@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Yekan Bakh FaNum";
+  src: url("/src/Fonts/woff-oeyda-web/PeydaWeb-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Yekan Bakh FaNum Regular";
+  src: url("/src/Fonts/woff-yekan-bakh/YekanBakhFaNum-Regular.woff")
+    format("woff");
+}
+.mainOfferContainer{
+    padding-bottom: 110px;
+    background-color: #fff;
+}
+

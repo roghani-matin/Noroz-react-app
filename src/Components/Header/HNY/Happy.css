@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Yekan Bakh FaNum";
+  src: url("/src/Fonts/woff-oeyda-web/PeydaWeb-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Yekan Bakh FaNum Regular";
+  src: url("/src/Fonts/woff-yekan-bakh/YekanBakhFaNum-Regular.woff")
+    format("woff");
+}
+.happyMainContainer {
+  padding: 50px 0 80px 0;
+  color: #fff;
+}
+.happyMainContent {
+  margin: 0 175px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.happyMainContent p{
+  font-family: "Yekan Bakh FaNum Regular";
+    color: #fff;
+    font-size: 24px;
+    font-weight: 900;
+}
+.happyMainContent img{
+    margin-right: 15px;
+    width: 223px;
+    height: 70px;
+}
+@media (max-width: 768px) {
+  .happyMainContent{
+    flex-direction: column;
+    margin: unset;
+  }
+}
