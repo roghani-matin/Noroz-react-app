@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Noroz-react-app/static/css/main.b773637f.css",
+    "main.css": "/Noroz-react-app/static/css/main.1db9f437.css",
     "main.js": "/Noroz-react-app/static/js/main.f4a0350c.js",
     "static/js/453.473bbbc3.chunk.js": "/Noroz-react-app/static/js/453.473bbbc3.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/Noroz-react-app/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -13,12 +13,12 @@
     "static/media/white-grass.svg": "/Noroz-react-app/static/media/white-grass.853e5d2bb932a0094001.svg",
     "static/media/pattern.svg": "/Noroz-react-app/static/media/pattern.5c24631df3bf53205671.svg",
     "index.html": "/Noroz-react-app/index.html",
-    "main.b773637f.css.map": "/Noroz-react-app/static/css/main.b773637f.css.map",
+    "main.1db9f437.css.map": "/Noroz-react-app/static/css/main.1db9f437.css.map",
     "main.f4a0350c.js.map": "/Noroz-react-app/static/js/main.f4a0350c.js.map",
     "453.473bbbc3.chunk.js.map": "/Noroz-react-app/static/js/453.473bbbc3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b773637f.css",
+    "static/css/main.1db9f437.css",
     "static/js/main.f4a0350c.js"
   ]
 }
