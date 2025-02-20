@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Noroz-react-app/static/css/main.dc9045dd.css",
+    "main.js": "/Noroz-react-app/static/js/main.f4a0350c.js",
+    "static/js/453.473bbbc3.chunk.js": "/Noroz-react-app/static/js/453.473bbbc3.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/Noroz-react-app/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/Noroz-react-app/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Noroz-react-app/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/Noroz-react-app/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Noroz-react-app/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/PeydaWeb-Medium.woff": "/Noroz-react-app/static/media/PeydaWeb-Medium.45475ea02e8c6329cf81.woff",
+    "static/media/YekanBakhFaNum-Regular.woff": "/Noroz-react-app/static/media/YekanBakhFaNum-Regular.77bab7dd3c4d12a12a9d.woff",
+    "static/media/white-grass.svg": "/Noroz-react-app/static/media/white-grass.853e5d2bb932a0094001.svg",
+    "static/media/pattern.svg": "/Noroz-react-app/static/media/pattern.5c24631df3bf53205671.svg",
+    "index.html": "/Noroz-react-app/index.html",
+    "main.dc9045dd.css.map": "/Noroz-react-app/static/css/main.dc9045dd.css.map",
+    "main.f4a0350c.js.map": "/Noroz-react-app/static/js/main.f4a0350c.js.map",
+    "453.473bbbc3.chunk.js.map": "/Noroz-react-app/static/js/453.473bbbc3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc9045dd.css",
+    "static/js/main.f4a0350c.js"
+  ]
+}
