@@ -45,76 +45,79 @@
   color: #666;
   font-size: 20px;
 }
-.heroTextInfos a{
-    display: inline-block;
-    -webkit-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    color: #000;
-    font: normal 20px / 1 vazir;
-    text-decoration: none;
-    transition: opacity .3s;
-    height: 50px;
-    position: relative;
+.heroTextInfos a {
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #000;
+  font: normal 20px / 1 vazir;
+  text-decoration: none;
+  transition: opacity 0.3s;
+  height: 50px;
+  position: relative;
 }
-.scrollButtom{
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 30px;
-    height: 50px;
-    margin-left: -15px;
-    border: 2px solid #212121;
-    border-radius: 50px;
-    box-sizing: border-box;
-    position: relative;
-    display: inline-block;
+.scrollButtom {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 30px;
+  height: 50px;
+  margin-left: -15px;
+  border: 2px solid #212121;
+  border-radius: 50px;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
 }
-.scrollButtom::before{
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    content: '';
-    width: 6px;
-    height: 6px;
-    margin-left: -3px;
-    background-color: #212121;
-    border-radius: 100%;
-    box-sizing: border-box;
-    animation: scrollDown 1s ease-in-out infinite;
+.scrollButtom::before {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  content: "";
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: #212121;
+  border-radius: 100%;
+  box-sizing: border-box;
+  animation: scrollDown 1s ease-in-out infinite;
 }
-.heroBackImage img{
+.heroBackImage img {
   width: 100%;
 }
 @keyframes scrollDown {
-    0% {
-        opacity: 0;
-        transform: translateY(-5px);
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-        transform: translateY(25px);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
 }
 
 @media (max-width: 768px) {
-  .heroMainContent{
+  .heroMainContent {
     margin: 0 auto;
     flex-direction: column;
     gap: 30px;
   }
-  .heroTextInfos h1{
+  .heroTextInfos h1 {
     font-size: 24px;
   }
-  .heroTextInfos p{
+  .heroTextInfos p {
     font-size: 14px;
   }
-  .heroTextInfos{
+  .heroTextInfos {
     width: 100%;
   }
-  .happyMainContent{
+  .happyMainContent {
     margin: 0 160px;
+  }
+  .heroBackImage {
+    width: 85%;
   }
 }
